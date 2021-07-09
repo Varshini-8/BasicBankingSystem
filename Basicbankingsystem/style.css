@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+#transaction, #transferto, #contactus {
+    background: url("images/blank.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+#transaction, #transferto {
+    background: url("images/blank1.png") no-repeat center fixed;
+    background-size: cover;
+}
+#about {
+    background: url("images/about.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+body.home {
+    background: url("images/bank.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+#header1 {
+    background-color: rgb(153,35,181);
+}
+#header2 {
+    background-color: rgb(43,71,139);
+}
+#header3 {
+    background-color: rgb(119,160,109);
+}
+
+nav a{
+    text-decoration: none;
+    text-align:end;
+    padding: 10px;
+    float: right;
+    color: aliceblue;
+    font-size: 100%;
+}
+
+nav{ 
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(245, 245, 163);
+}
+
+header span
+{
+    font-size: 150%;
+    color: beige;
+    text-align: center;
+}
+
+#wel{
+    margin-top: 40px;
+    margin-left:150px;
+    border-radius: 8%;
+}
+
+#vgsf {
+    margin-top: 50px;
+    margin-left: 15px;
+    color: cornsilk;
+}
+#hm {
+    font-size: 50%;
+    margin-left: 10%;
+    float: none;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+#hp {
+    color: cornsilk;
+}
+#welcome {
+    font-size: 300%;
+    color: darkslateblue;
+    font-weight: 500;
+}
+
+#subline{
+    font-size: 150%;
+    font-style: oblique;
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+#option1{
+    border-radius: 50%;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 10%;
+    margin-top: 4%;
+    //background-color: navajowhite ;
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+#option2{
+    border-radius: 5%;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-top: 4%;
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#option3 {
+    border-radius: 5%;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-top: 4%;
+    background-size: contain;
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#text{
+    font-size: 60%;
+    margin-left: 10%;
+    color: darkblue;
+}
+#text3{
+    font-size: 60%;
+    color: darkblue;
+}
+img{
+    border-radius: 50%;
+    margin-left: 10%;
+   
+}
+#footer1 {
+    background-color: rgb(217,123,239);
+}
+#footer2 {
+    background-color: rgb(181,219,247);
+}
+#footer3 {
+    background-color: rgb(151,193,142);
+}
+footer{
+  
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+#foot{
+    text-align: center;
+    color: darkslateblue;
+}
+
+#customers{
+    margin-left: 15%;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+#customers th,#customers td{
+    background-color: rgba(228, 236, 184, 0.945);
+    border: 1px solid rgb(14, 13, 13);
+    text-align: center;
+  
+}
+
+#customers tr:nth-child(even){background-color: white;}
+
+#customers tr:hover {background-color: rgb(218, 240, 121);}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(153,35,181);
+  color: white;
+}
+
+#customers td {
+    padding-top: 6px;
+  padding-bottom:6px;
+}
+
+#texttransfer{
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: -10px;
+    font-size:200%;
+    font-weight:800;
+    color: rgb(12, 15, 53);
+}
+
+#transactbutton{
+    background-color: rgba(237, 240, 223, 0.945);
+    padding: 5px 70px;
+    font-size: 16px;
+}
+
+#labdiv{
+
+    margin-left: 15%;
+    margin-top: 3%;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+#sel{
+    width:82%;
+    font-weight: 500;
+    font-size: 70%;
+    background-color: rgba(228, 236, 184, 0.945);
+}
+
+#transferbutton{
+    margin-left: 38%;
+    font-weight: 500;
+    font-size: 70%;
+    background-color: rgb(24, 31, 124);
+    color: white;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#field{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    background-color: rgba(228, 236, 184, 0.945);
+}
+
+#con{
+    margin-top: 5%;
+    margin-left: 25%;
+    text-align: left;
+    font-size:x-large;
+    justify-content: center;
+}
+
+#txt{
+    font-size:large;
+    margin-left: 5%;
+    margin-right: 10%;
+    width:50%;
+}
+
+#button{
+    margin-left: 25%;
+    font-weight: 500;
+    font-size: 70%;
+    background-color: rgb(24, 31, 124);
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#abouthead{
+    margin-left: 60%;
+    margin-top: 5%;
+    font-size:50px;
+    font-weight: 800;
+    color: darkblue;
+}
+
+#content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size:25px;
+    font-weight: 400;
+    color: black;
+   
+}
+fieldset {
+    border-radius: 80px;
+}
+
+#boxx {
+    margin-left: 50%;
+    margin-right: 4%;
+    margin-bottom: 10%;
+    background-color:rgba(228, 236, 184, 0.945) ;
+}
